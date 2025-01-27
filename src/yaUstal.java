@@ -151,7 +151,7 @@ public class yaUstal {
                     Main.LOGGER.log(Level.INFO,"выход");
                     return;
                 default:
-                    Main.LOGGER.log(Level.WARNING ,"неверный выбор");
+                    Main.LOGGER.log(Level.WARNING ,"произошла ошибка,метод ретурнул дефолт");
                     System.out.println("Неверный выбор. Попробуйте снова.");
             }
         }
